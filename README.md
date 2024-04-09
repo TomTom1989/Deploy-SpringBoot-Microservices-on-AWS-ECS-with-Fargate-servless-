@@ -1,12 +1,5 @@
 AWS FARGATE all steps:
 
-Elastic Container Service: ECS
--AWS managed container orchestration
--Continous integration and continous deployment (CI/CD)
--Support for Service Discovery
--CloudWatch Logs
-
-
 1) First, recreated locally microservice app:
 - Created 2 CRUD microservices (PhotoApp/AlbumApp) 
 - For each: created 2 configurations: DEV and PROD
@@ -37,7 +30,7 @@ Optionnally: follow procedures to request TLS/SSL certificate from Amazon/ Valid
 
 5) ECS Service Auto Scaling:
 -configuration of autoscaling (tasks upragde or downgrade)
--checking in AWS cloud watch alerts
+-checking in AWS Cloudwatch the alerts
 
 6) RDS with MySQL:
 -creating databse/configuration
