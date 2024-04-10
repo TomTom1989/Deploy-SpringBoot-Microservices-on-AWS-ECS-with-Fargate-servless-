@@ -53,6 +53,7 @@ Then creating second Microservice Albums(Docker image/create RDS MySQL db/Task d
 Finally configure Users Service to use local DNS of Albums testing: with Postman creating resources for users and albums (get the json access token + user ID) the GET request to get users (MS 1) with list of albums fecthed from the second MS was succesffull thanks to the Service Discovery & Service Connect between Microservices
 
 ===================================================================================
+
 10) AMAZON DEVELOPER TOOLS: CI/CD  
 CodeCommit=>CodeBuild=>CodeDeploy=>AWS ECS alongside CodePipeline (automate the pipeline from codecommit to codedeploy through codebuild) for continuous integration, delivery and deployment
 
